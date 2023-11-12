@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    width: 80%;
+    margin: auto;
+}
+
+/*navbar*/
+
+.logo img {
+    width: 80px;
+    height: 40px;
+}
+
+.navbar {
+
+    background-color: rgb(43, 41, 41);
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar .container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+
+}
+
+.navbar ul {
+    display: flex;
+
+
+}
+
+.navbar ul li {
+
+    margin-right: 15px;
+    list-style-type: none;
+    font-size: x-large;
+    
+
+}
+
+.navbar a {
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    
+
+
+}
+
+/*header*/
+
+.header{
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(img/image-75.webp);
+    background-size: 100% 100%;
+    position: relative;
+    
+
+}
+
+.tufan{
+
+    position: absolute;
+    left: 120px;
+    top: 350px;
+}
+
+.header h2{
+  font-size: 70px;  
+  font-weight: bolder;
+  font-style: normal;
+  font-family: cursive;
+  margin-top: 20px;
+  text-transform: uppercase;
+  
+}
+
+.header h1{
+    font-size: 60px;
+}
+
+/*portfolio*/
+
+.portfolio{
+
+    background-color: white;
+}
+
+.info{
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   font-size: 35px;
+   font-family: cursive;
+}
+
+.images img{
+    width: 450px;
+    height: 400px;
+    display: block;
+}
+
+.images .row{
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+
+}
+
+.item p{
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    color: rgb(12, 11, 11);
+    background-color: white;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: 700;
+    font-style: normal;
+    font-family: cursive;
+    height: 80px;
+   
+}
+.item{
+    position: relative;
+    margin-bottom: 10px;
+   
+    
+}
+ .item .try{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+   
+}
+.try {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.try a{
+
+   background-color: bisque;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   font-size: larger;
+   color: black;
+    border-radius: 40px;
+   
+    
+}
+.try:hover{
+
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
